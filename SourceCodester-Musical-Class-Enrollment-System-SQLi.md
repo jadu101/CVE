@@ -1,5 +1,5 @@
 # Sourecodester Music Class Enrollment System SQL Injection vulnerability
-
+## CVE-2024-6067
 
 Affected Software: https://www.sourcecodester.com/php/15362/music-class-enrollment-site-phpoop-free-source-code.html
 
