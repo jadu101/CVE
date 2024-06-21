@@ -1,11 +1,11 @@
 
-# SQL Injection vulnerability was discovered from Sourcecodester Food Ordering Management System 1.0
+# SQL Injection vulnerability was discovered from Sourcecodester Food Ordering Management System 1.0 (login)
 
 Affected Project: Sourcecodester Food Ordering Management System 1.0
 Official Website: https://www.sourcecodester.com/php/15689/food-ordering-management-system-php-and-mysql-free-source-code.html
 Version: 1.0
 
-Related Code file: login.php
+Related Code file: router.php
 
 Injection parameter: username
 
@@ -26,7 +26,7 @@ Below is the login.php:
 
 ![image](https://github.com/jadu101/CVE/assets/76433661/5f48cb34-18a4-4b03-8848-964b87b60b94)
 
-We will first intercept the login traffic using Burp Suite:
+We will first intercept the login traffic using Burp Suite. Web app is using router.php for login:
 
 ![image-1](https://github.com/jadu101/CVE/assets/76433661/cf2eb00b-1072-4879-871d-fea55e0e27ee)
 
