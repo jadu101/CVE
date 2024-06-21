@@ -1,6 +1,6 @@
 
 # SQL Injection vulnerability was discovered from Sourcecodester Food Ordering Management System 1.0 (add-users.php)
-
+## CVE-2024-6216
 Affected Project: Sourcecodester Food Ordering Management System 1.0
 Official Website: https://www.sourcecodester.com/php/15689/food-ordering-management-system-php-and-mysql-free-source-code.html
 Version: 1.0
