@@ -22,7 +22,7 @@ We will intercept the create account traffic using Burp Suite:
 
 After saving the intercepted request as register.txt, we will run sqlmap against it:
 
-![image](https://github.com/jadu101/CVE/assets/76433661/80458896-e659-4205-87b8-9d5e656ccdc4
+![image](https://github.com/jadu101/CVE/assets/76433661/80458896-e659-4205-87b8-9d5e656ccdc4)
 
 sqlmap identifies POST parameter 'MULTIPART username' as vulnerable. Below is the payload used:
 
