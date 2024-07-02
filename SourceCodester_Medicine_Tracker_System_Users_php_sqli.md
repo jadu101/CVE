@@ -1,5 +1,5 @@
 # SQL Injection vulnerability was discovered from Sourcecodester Medicine Tracker System (Users.php)
-
+## CVE-2024-6418
 Affected Project: Sourcecodester Medicine Tracker System 1.0
 
 Official Website: [https://www.sourcecodester.com/php/15689/food-ordering-management-system-php-and-mysql-free-source-code.html](https://www.sourcecodester.com/php/16308/medicine-tracker-system-php-oop-and-mysql-db-source-code-free-download.html)
