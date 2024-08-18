@@ -33,7 +33,7 @@ In this block, user input is not directly used, but if there were any dynamic co
 
 
 
-## Demonstraation
+## Demonstration
 Below is how Leads Manager Tool looks like:
 
 ![image](https://github.com/user-attachments/assets/7d5891c8-0e0d-478f-b8fc-c3e7bef760b9)
