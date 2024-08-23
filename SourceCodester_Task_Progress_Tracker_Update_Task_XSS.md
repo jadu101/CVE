@@ -13,8 +13,8 @@
 
 ## Vulnerability Description
 
-The **task_name** parameter is vulnerable to the tested XSS payload: `%3cIMG%20%22%22%22%3e%3cSCRIPT%3ealert(%22XSS%22)%3c%2fSCRIPT%3e%22%3e`. This string is encoded and when decoded, it attempts to inject a script into the webpage:
-`<IMG """"><SCRIPT>alert("XSS")</SCRIPT>">`
+The **task_name** parameter is vulnerable to the tested XSS payload: `<IMG """"><SCRIPT>alert("XSS")</SCRIPT>">`
+.
 
 Application does not properly sanitize or validate the **task_name** input, this script could be executed in the user's browser, leading to an XSS attack.
 
