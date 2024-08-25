@@ -1,5 +1,5 @@
-
 # XSS vulnerability from Sourcecodester Accounts Manager App 1.0 (update-account.php)
+## CVE-2024-7948
 
 **Affected Project**: Accounts Manager App 1.0
 
