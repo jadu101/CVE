@@ -1,5 +1,5 @@
-
 # XSS vulnerability from Sourcecodester Lead Manager Tool 1.0 (update-leads.php)
+## CVE-2024-7942
 
 **Affected Project**: Lead Manager Tool 1.0
 
