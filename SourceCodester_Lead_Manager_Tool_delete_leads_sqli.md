@@ -1,5 +1,5 @@
-
 # SQLi vulnerability from Sourcecodester Lead Manager Tool 1.0 (delete-leads.php)
+## CVE-2024-8142
 
 **Affected Project**: Lead Manager Tool 1.0
 
