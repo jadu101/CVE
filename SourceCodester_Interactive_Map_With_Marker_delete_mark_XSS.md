@@ -1,5 +1,6 @@
 
 # XSS vulnerability from Sourcecodester Interactive Map With Marker 1.0 (delete-mark.php)
+## CVE-2024-8151
 
 **Affected Project**: Interactive Map with Marker 1.0
 
