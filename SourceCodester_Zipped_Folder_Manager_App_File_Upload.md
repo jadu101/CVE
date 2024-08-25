@@ -15,6 +15,14 @@ The Zipped Folder Manager App 1.0 has an Arbitrary File Upload vulnerability in 
 
 This vulnerability arises because the application does not thoroughly validate the contents of uploaded files, even though it checks that the file extension is .zip. Attackers can exploit this vulnerability to upload malicious files disguised as .zip files, leading to potential execution of arbitrary code on the server.
 
+The script accepts and processes any file uploaded through the form without adequate validation of the file type or content. This lack of proper validation can result in various security vulnerabilities, including:
+
+1. **Arbitrary File Upload**: Attackers can upload malicious files, such as PHP scripts disguised as images, that can be executed on the server, potentially resulting in remote code execution.
+
+2. **Directory Traversal**: Because the script does not check for directory traversal attacks, attackers could upload files to unintended directories on the server, which could result in unauthorized access or the overwriting of sensitive files.
+
+3. **Denial of Service**: Attackers could upload excessively large files, consuming server resources and leading to denial of service.
+
 ## Vulnerability Details and Analysis
 
 1. **File Extension Check Only**:
@@ -60,7 +68,7 @@ $stmt = $conn->prepare("INSERT INTO tbl_folder (zip_file, date_uploaded) VALUES 
 
 ## Demonstration
 
-Belowis how Zipped Folder Manager App looks like:
+Below is how Zipped Folder Manager App looks like:
 
 ![Screenshot from 2024-08-25 20-58-51](https://github.com/user-attachments/assets/c35a8333-714b-4a19-8055-b1a8c243251e)
 
