@@ -55,7 +55,7 @@ if (move_uploaded_file($_FILES['folder']['tmp_name'], $zipFile)) {
 $stmt = $conn->prepare("INSERT INTO tbl_folder (zip_file, date_uploaded) VALUES (:zipFile, :dateUploaded)");
 ```
 
-While this part does not directly contribute to the vulnerability, it facilitates managing and organizing uploaded files, making it easier for attackers to track and access their malicious uploads.
+- While this part does not directly contribute to the vulnerability, it facilitates managing and organizing uploaded files, making it easier for attackers to track and access their malicious uploads.
 
 
 ## Demonstration
