@@ -59,3 +59,27 @@ $stmt = $conn->prepare("INSERT INTO tbl_folder (zip_file, date_uploaded) VALUES 
 
 
 ## Demonstration
+
+Belowis how Zipped Folder Manager App looks like:
+
+![Screenshot from 2024-08-25 20-58-51](https://github.com/user-attachments/assets/c35a8333-714b-4a19-8055-b1a8c243251e)
+
+User can add a zipped folder as such:
+
+![Screenshot from 2024-08-25 20-57-27](https://github.com/user-attachments/assets/b9cb9c07-23ba-4d82-8b73-22faed872039)
+
+Let's intercept the traffic when adding a zipped folder using Burp Suite:
+
+![Screenshot from 2024-08-25 20-57-41](https://github.com/user-attachments/assets/2eda9bb9-101d-4474-b1bc-23f7ca235125)
+
+Traffic could be modifed to contain any kind of codes since the app doesn't validate the zipped folder content. Here, I have a php code inserted as an example:
+
+![Screenshot from 2024-08-25 20-58-26](https://github.com/user-attachments/assets/7de670a2-4f00-49b7-aea2-f4d756f53c63)
+
+After sending the modified traffic, we can confirm the modified zipped folder is uploaded with no issue:
+
+![Screenshot from 2024-08-25 20-58-51](https://github.com/user-attachments/assets/abaf9aa9-1ecf-4711-b30a-f1fb716f60d0)
+
+When we download the zipped folder, we can see that zip file has an `.zip` extension but the content include the modified code untouched:
+
+![Screenshot from 2024-08-25 22-35-22](https://github.com/user-attachments/assets/905506b6-1aaa-4f16-8dc0-097d9a29b474)
