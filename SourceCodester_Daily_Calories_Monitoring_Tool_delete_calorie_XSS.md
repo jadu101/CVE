@@ -1,6 +1,6 @@
 
 # XSS vulnerability from Sourcecodester Daily Calories Monitoring Tool 1.0 (delete-calorie.php)
-
+## CVE-2024-8142
 **Affected Project**: Daily Calories Monitoring Tool 1.0
 
 **Official Website**: https://www.sourcecodester.com/php/17445/daily-calories-monitoring-tool-using-php-and-mysql-source-code.html
