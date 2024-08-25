@@ -1,5 +1,5 @@
-
 # XSS vulnerability from Sourcecodester Task Progress Manager 1.0 (update-task.php)
+## CVE-2024-8140
 
 **Affected Project**: Task Progress Manager 1.0
 
