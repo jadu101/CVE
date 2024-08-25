@@ -3,7 +3,7 @@
 
 **Affected Project**: Interactive Map with Marker 1.0
 
-**Official Website**: https://www.sourcecodester.com/php/17354/interactive-map-markers-using-php-and-mysql-source-code.html#google_vignette
+**Official Website**: https://www.sourcecodester.com/php/17354/interactive-map-markers-using-php-and-mysql-source-code.html
 
 **Version**: 1.0
 
