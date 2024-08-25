@@ -1,5 +1,5 @@
-
 # XSS vulnerability from Sourcecodester Daily Calories Monitoring Tool 1.0 (add-calorie.php)
+## CVE-2024-8141
 
 **Affected Project**: Daily Calories Monitoring Tool 1.0
 
