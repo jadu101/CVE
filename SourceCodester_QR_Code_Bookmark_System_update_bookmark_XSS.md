@@ -1,5 +1,6 @@
 
 # XSS vulnerability from Sourcecodester QR Code Bookmark System 1.0 (update-bookmark.php)
+## CVE-2024-8154
 
 **Affected Project**: QR Code Bookmark System 1.0
 
