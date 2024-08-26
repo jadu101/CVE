@@ -1,5 +1,6 @@
 
 # Arbitrary File Upload vulnerability from Sourcecodester Zipped Folder Manager App 1.0 (add-folder.php)
+## CVE-2024-8170
 
 **Affected Project**: Zipped Folder Manager App 1.0
 
