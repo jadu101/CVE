@@ -1,5 +1,6 @@
 
 # XSS vulnerability from Sourcecodester QR Code Attendance System 1.0 (delete-student.php)
+## CVE-2024-8172
 
 **Affected Project**: QR Code Attendance System 1.0
 
