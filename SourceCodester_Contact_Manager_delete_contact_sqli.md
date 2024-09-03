@@ -1,4 +1,7 @@
 # SQL Injection vulnerability was discovered from Sourcecodester Contact Manager with Export to VCF (delete-contact.php)
+## CVE-2024-8380
+
+> A vulnerability was found in SourceCodester Contact Manager with Export to VCF 1.0. It has been rated as critical. This issue affects some unknown processing of the file /endpoint/delete-account.php of the component Delete Contact Handler. The manipulation of the argument contact leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.
 
 **Affected Project**: Sourcecodester Contact Manager with Export to VCF 1.0
 
