@@ -1,4 +1,7 @@
 # SQL Injection vulnerability was discovered from Sourcecodester Profile Registration without Reload/Refresh 1.0 (del.php)
+## CVE-2024-9093
+
+> A vulnerability classified as critical has been found in SourceCodester Profile Registration without Reload Refresh 1.0. This affects an unknown function of the file del.php of the component GET Parameter Handler. The manipulation of the argument list with an unknown input leads to a sql injection vulnerability. CWE is classifying the issue as CWE-89. The product constructs all or part of an SQL command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended SQL command when it is sent to a downstream component. This is going to have an impact on confidentiality, integrity, and availability.
 
 **Affected Project**: Profile Registration without Reload/Refresh 1.0
 
