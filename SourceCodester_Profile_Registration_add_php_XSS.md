@@ -1,4 +1,7 @@
 # XSS vulnerability from Sourcecodester Profile Registration without Reload/Refresh 1.0 (add.php)
+## CVE-2024-9092
+
+> A vulnerability was found in SourceCodester Profile Registration without Reload Refresh 1.0. It has been rated as problematic. Affected by this issue is some unknown processing of the file add.php of the component Registration Form. The manipulation of the argument full_name with an unknown input leads to a cross site scripting vulnerability. Using CWE to declare the problem leads to CWE-79. The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users. Impacted is integrity.
 
 **Affected Project**: Profile Registration without Reload/Refresh
 
