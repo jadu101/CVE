@@ -1,5 +1,4 @@
-![image](https://github.com/user-attachments/assets/a7e737e5-bee5-438e-a359-d029b57cbf2b)# Arbitrary File upload vulnerability from phpgurukul Boat Booking System 1.0 (change-image.php)
-
+## File Upload vulnerability from phpgurukul Boat Booking System 1.0 (change-image.php)
 **Affected Project**: Boat Booking System 1.0
 
 **Official Website**: https://phpgurukul.com/boat-booking-system-using-php-and-mysql/
