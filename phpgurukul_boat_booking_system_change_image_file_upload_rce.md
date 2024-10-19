@@ -1,5 +1,8 @@
 ## File Upload vulnerability from phpgurukul Boat Booking System 1.0 (change-image.php)
 ## CVE-2024-10161
+> A vulnerability, which was classified as critical, was found in PHPGurukul Boat Booking System 1.0. This affects some unknown functionality of the file change-image.php of the component Update Boat Image Page. The manipulation of the argument image with an unknown input leads to a unrestricted upload vulnerability. CWE is classifying the issue as CWE-434. The product allows the attacker to upload or transfer files of dangerous types that can be automatically processed within the product's environment. This is going to have an impact on confidentiality, integrity, and availability.
+
+
 
 **Affected Project**: Boat Booking System 1.0
 
