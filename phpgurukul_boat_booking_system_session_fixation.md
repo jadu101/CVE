@@ -1,4 +1,6 @@
 # Session Fixation vulnerability from phpgurukul Boat Booking System 1.0 
+## CVE-2024-10158
+
 **Affected Project**: Boat Booking System 1.0
 
 **Official Website**: https://phpgurukul.com/boat-booking-system-using-php-and-mysql/
