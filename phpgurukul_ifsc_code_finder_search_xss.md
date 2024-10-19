@@ -1,4 +1,8 @@
 # XSS vulnerability from phpgurukul IFSC Code Finder 1.0 (search.php)
+## CVE-2024-10192
+
+> A vulnerability has been found in PHPGurukul IFSC Code Finder Project 1.0 and classified as problematic. This vulnerability affects an unknown function of the file search.php. The manipulation with an unknown input leads to a cross site scripting vulnerability. The CWE definition for the vulnerability is CWE-79. The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users. As an impact it is known to affect integrity.
+
 
 **Affected Project**: IFSC Code Finder 1.0
 
