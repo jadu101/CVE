@@ -1,6 +1,9 @@
 # SQL Injection vulnerability from phpgurukul Boat Booking System 1.0 (/admin/profile.php)
 ## CVE-2024-10159
 
+> A vulnerability classified as critical was found in PHPGurukul Boat Booking System 1.0. Affected by this vulnerability is an unknown function of the file /admin/profile.php of the component My Profile Page. The manipulation of the argument sadminusername/fullname/emailid/mobilenumber with an unknown input leads to a sql injection vulnerability. The CWE definition for the vulnerability is CWE-89. The product constructs all or part of an SQL command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended SQL command when it is sent to a downstream component. As an impact it is known to affect confidentiality, integrity, and availability.
+
+
 
 **Affected Project**: Boat Booking System 1.0
 
