@@ -27,4 +27,4 @@ Let's search with the payload: `<IMG """"><SCRIPT>alert("XSS")</SCRIPT>">`
 
 XSS is triggered:
 
-![Uploading Screenshot from 2024-10-19 13-47-46.png…]()
+![image](https://github.com/user-attachments/assets/8bb85399-bab1-40fb-a4c5-4c613b3d2326)
