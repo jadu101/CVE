@@ -1,4 +1,5 @@
 # SQL Injection vulnerability from phpgurukul Boat Booking System 1.0 (/admin/bwdates-report-details.php)
+## CVE-2024-10160
 
 **Affected Project**: Boat Booking System 1.0
 
