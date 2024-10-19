@@ -1,4 +1,9 @@
 # XSS vulnerability from phpgurukul Boat Booking System 1.0 (booking-details.php)
+## CVE-2024-10191
+
+> A vulnerability, which was classified as problematic, was found in PHPGurukul Boat Booking System 1.0. This affects some unknown processing of the file /admin/book-details.php of the component Booking Details Page. The manipulation of the argument Official Remark with an unknown input leads to a cross site scripting vulnerability. CWE is classifying the issue as CWE-79. The product does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output that is used as a web page that is served to other users. This is going to have an impact on integrity.
+
+
 
 **Affected Project**: Boat Booking System 1.0
 
