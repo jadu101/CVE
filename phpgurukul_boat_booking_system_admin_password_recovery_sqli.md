@@ -1,6 +1,8 @@
 # SQL Injection vulnerability from phpgurukul Boat Booking System 1.0 (/admin/password-recovery.php)
 ## CVE-2024-10157
 
+> A vulnerability was found in PHPGurukul Boat Booking System 1.0. It has been rated as critical. This issue affects an unknown code block of the file /admin/password-recovery.php of the component Reset Your Password Page. The manipulation of the argument username with an unknown input leads to a sql injection vulnerability. Using CWE to declare the problem leads to CWE-89. The product constructs all or part of an SQL command using externally-influenced input from an upstream component, but it does not neutralize or incorrectly neutralizes special elements that could modify the intended SQL command when it is sent to a downstream component. Impacted is confidentiality, integrity, and availability.
+
 
 **Affected Project**: Boat Booking System 1.0
 
