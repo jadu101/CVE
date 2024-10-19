@@ -1,4 +1,6 @@
 ## File Upload vulnerability from phpgurukul Boat Booking System 1.0 (change-image.php)
+## CVE-2024-10161
+
 **Affected Project**: Boat Booking System 1.0
 
 **Official Website**: https://phpgurukul.com/boat-booking-system-using-php-and-mysql/
