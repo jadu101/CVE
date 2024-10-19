@@ -1,6 +1,10 @@
 # Session Fixation vulnerability from phpgurukul Boat Booking System 1.0 
 ## CVE-2024-10158
 
+> A vulnerability classified as problematic has been found in PHPGurukul Boat Booking System 1.0. Affected is the function session_start. The manipulation with an unknown input leads to a session fixiation vulnerability. CWE is classifying the issue as CWE-384. Authenticating a user, or otherwise establishing a new user session, without invalidating any existing session identifier gives an attacker the opportunity to steal authenticated sessions. This is going to have an impact on integrity.
+
+
+
 **Affected Project**: Boat Booking System 1.0
 
 **Official Website**: https://phpgurukul.com/boat-booking-system-using-php-and-mysql/
