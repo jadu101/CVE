@@ -26,12 +26,6 @@ Let's fill in some XSS payloads to it:
 
 ![Screenshot from 2024-10-25 23-13-41](https://github.com/user-attachments/assets/08f52c5a-742b-40a9-991c-b5496518c4aa)
 
-Now, sign in as the admin:
+After submitting the change, XSS is triggered:
 
-![Screenshot from 2024-10-17 11-16-19](https://github.com/user-attachments/assets/3966cfcb-0946-4ad7-b761-d8506a84c4f0)
-
-Going to `all-booking.php`, XSS payload is triggered:
-
-![Screenshot from 2024-10-17 11-16-34](https://github.com/user-attachments/assets/6e63367c-3770-4a1f-9092-539b8f939066)
-
-Using this, attacker can potentially steal admin's session Cookie. 
+![Screenshot from 2024-10-25 23-13-11](https://github.com/user-attachments/assets/01a13211-4b5c-4cd3-ab02-fbbbe2f2bf56)
