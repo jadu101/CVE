@@ -12,7 +12,7 @@
 
 ## Vulnerability Description
 
-When sendming message, **username** parameter is vulnerable to SQL injection vulnerability.
+When sending message, **username** parameter is vulnerable to SQL injection vulnerability.
 
 ## Demonstration
 
