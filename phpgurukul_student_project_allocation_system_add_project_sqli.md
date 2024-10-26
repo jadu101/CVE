@@ -1,4 +1,9 @@
 # SQL Injection vulnerability from phpgurukul Student Project Allocation System 1.0 (add_project.php)
+## CVE-2024-10423
+
+> In Project Worlds Student Project Allocation System 1.0 è stato trovato un punto critico di livello critico. É interessato una funzione sconosciuta del file /student/project_selection/project_selection.php del componente Project Selection Page. La manipolazione del parametro project_id di un input sconosciuto se causa una vulnerabilità di classe sql injection. L'advisory è scaricabile da github.com. Questo punto di criticità è identificato come CVE-2024-10423. L'attacco si effettua con la rete.
+
+
 
 **Affected Project**: Student Project Allocation System 1.0
 
