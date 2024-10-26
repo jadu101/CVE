@@ -1,4 +1,8 @@
 # XSS vulnerability from phpgurukul Vehicle Record System 1.0 (edit-brand.php)
+## CVE-2024-10414
+
+> A vulnerability has been found in PHPGurukul Vehicle Record System 1.0 and classified as problematic. This vulnerability affects unknown code of the file /admin/edit-brand.php. The manipulation of the argument Brand Name leads to cross site scripting. This vulnerability was named CVE-2024-10414. The attack can be initiated remotely. Furthermore, there is an exploit available. The initial researcher advisory mentions the parameter "phone_number" to be affected. But this might be a mistake because the textbox field label is "Brand Name".
+
 
 
 **Affected Project**: Vehicle Record System 1.0
