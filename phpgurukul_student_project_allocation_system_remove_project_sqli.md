@@ -1,4 +1,8 @@
 # SQL Injection vulnerability from phpgurukul Student Project Allocation System 1.0 (remove_project.php)
+## CVE-2024-10424
+
+> A vulnerability was found in Project Worlds Student Project Allocation System 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /student/project_selection/remove_project.php of the component Project Selection Page. The manipulation of the argument no leads to sql injection. This vulnerability is handled as CVE-2024-10424. The attack may be launched remotely. Furthermore, there is an exploit available.
+
 
 **Affected Project**: Student Project Allocation System 1.0
 
