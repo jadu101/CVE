@@ -1,4 +1,9 @@
 # SQL Injection vulnerability from phpgurukul Student Project Allocation System 1.0 (move_up_project.php)
+## CVE-2024-10425
+
+> A vulnerability was found in Project Worlds Student Project Allocation System 1.0. It has been classified as critical. This affects an unknown part of the file /student/project_selection/move_up_project.php of the component Project Selection Page. The manipulation of the argument up leads to sql injection. This vulnerability is uniquely identified as CVE-2024-10425. It is possible to initiate the attack remotely. Furthermore, there is an exploit available.
+
+
 
 **Affected Project**: Student Project Allocation System 1.0
 
