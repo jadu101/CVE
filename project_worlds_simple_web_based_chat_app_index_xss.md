@@ -1,4 +1,8 @@
 # XSS vulnerability from Project Worlds Simple Web Based Chat Application 1.0 (/index.php)
+## CVE-2024-10433
+
+> A vulnerability was found in Project Worlds Simple Web-Based Chat Application 1.0. It has been classified as problematic. This affects an unknown part of the file /index.php. The manipulation of the argument Name/Comment leads to cross site scripting. This vulnerability is uniquely identified as CVE-2024-10433. It is possible to initiate the attack remotely. Furthermore, there is an exploit available. The initial researcher advisory mentions different parameters to be affected which do not correlate with the screenshots of a successful attack.
+
 
 **Affected Project**: Simple Web Based Chat Application 1.0
 
