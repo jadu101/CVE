@@ -1,4 +1,9 @@
 # SQL Injection vulnerability from Project Worlds Simple Web Based Chat Application 1.0 (/index.php)
+## CVE-2024-10432
+
+> A vulnerability was found in Project Worlds Simple Web-Based Chat Application 1.0 and classified as critical. Affected by this issue is some unknown functionality of the file /index.php. The manipulation of the argument username leads to sql injection. This vulnerability is handled as CVE-2024-10432. The attack may be launched remotely. Furthermore, there is an exploit available.
+
+
 
 **Affected Project**: Simple Web Based Chat Application 1.0
 
