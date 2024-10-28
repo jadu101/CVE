@@ -1,4 +1,7 @@
 # SQL Injection vulnerability from Project Worlds Online Time Table Generator 1.0 (/staffdashboard.php)
+## CVE-2024-10447
+
+> A vulnerability, which was classified as critical, has been found in Project Worlds Online Time Table Generator 1.0. Affected by this issue is some unknown functionality of the file /timetable/staff/staffdashboard.php?info=updateprofile. The manipulation of the argument n leads to sql injection. This vulnerability is handled as CVE-2024-10447. The attack may be launched remotely. There is no exploit available.
 
 **Affected Project**: Online Time Table Generator 1.0
 
