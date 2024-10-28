@@ -1,4 +1,9 @@
 # SQL Injection vulnerability from Project Worlds Online Time Table Generator 1.0 (/admindashboard.php)
+## CVE-2024-10446
+> A vulnerability classified as critical was found in Project Worlds Online Time Table Generator 1.0. Affected by this vulnerability is an unknown functionality of the file /timetable/admin/admindashboard.php?info=add_course. The manipulation of the argument c leads to sql injection. This vulnerability is known as CVE-2024-10446. The attack can be launched remotely. Furthermore, there is an exploit available.
+
+
+
 
 **Affected Project**: Online Time Table Generator 1.0
 
